@@ -1,10 +1,6 @@
 STOCK FUSION
 
-/Users/landryachiandong/Documents/myapp.gif
 
-/Users/landryachiandong/Documents/myapp3.gif
-
-/Users/landryachiandong/Documents/myapp2.gif
 
 
 Stock fusion is an IOS app to track changes on prices of stock on the stock market and send the user notifications if there are changes on the value of the said stock being tracked.
