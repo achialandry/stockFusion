@@ -1,0 +1,11 @@
+framework module ScrollableGraphView {
+  umbrella header "ScrollableGraphView.h"
+
+  export *
+  module * { export * }
+}
+
+module ScrollableGraphView.Swift {
+    header "ScrollableGraphView-Swift.h"
+    requires objc
+}

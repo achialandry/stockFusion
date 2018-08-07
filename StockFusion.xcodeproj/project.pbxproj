@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5007F70F210A7FAC00FDB7A7 /* MaterialDesignForStyling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5007F70E210A7FAC00FDB7A7 /* MaterialDesignForStyling.swift */; };
+		5007F711210A814600FDB7A7 /* Motion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5007F710210A814500FDB7A7 /* Motion.framework */; };
+		5007F714210A86A100FDB7A7 /* Material.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5007F713210A86A000FDB7A7 /* Material.framework */; };
+		5007F716210B056D00FDB7A7 /* LoadingSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5007F715210B056D00FDB7A7 /* LoadingSpinner.swift */; };
+		5007F718210BA3F400FDB7A7 /* SwiftyButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5007F717210BA3F400FDB7A7 /* SwiftyButton.framework */; };
+		50187D45210EC15D004B06C2 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50187D44210EC15D004B06C2 /* HistoryViewController.swift */; };
+		50187D47210FA34D004B06C2 /* StockAllViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50187D46210FA34C004B06C2 /* StockAllViewController.swift */; };
+		50187D49210FA5B0004B06C2 /* HistoryTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50187D48210FA5B0004B06C2 /* HistoryTabViewController.swift */; };
+		50187D4B210FA5C2004B06C2 /* AugmentedRealityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50187D4A210FA5C1004B06C2 /* AugmentedRealityViewController.swift */; };
+		50187D4D210FA5D4004B06C2 /* SearchTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50187D4C210FA5D4004B06C2 /* SearchTabViewController.swift */; };
+		50187D4F210FA5E6004B06C2 /* TrackStockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50187D4E210FA5E6004B06C2 /* TrackStockViewController.swift */; };
+		50187D8A21111E94004B06C2 /* StockRemoteDataShared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50187D8921111E94004B06C2 /* StockRemoteDataShared.swift */; };
+		50187D8C2113C9AD004B06C2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50187D8B2113C9AB004B06C2 /* LoginViewController.swift */; };
+		50187D8E2113C9C9004B06C2 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50187D8D2113C9C9004B06C2 /* RegisterViewController.swift */; };
+		50187D922113CA22004B06C2 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50187D912113CA22004B06C2 /* UserModel.swift */; };
+		50187D9421142210004B06C2 /* TrackStockItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50187D9321142210004B06C2 /* TrackStockItem.swift */; };
+		50187D96211424C1004B06C2 /* TrackingStocksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50187D95211424C1004B06C2 /* TrackingStocksTableViewController.swift */; };
+		50187D98211429C8004B06C2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 50187D97211429C7004B06C2 /* GoogleService-Info.plist */; };
+		503DE637210699BF00C55A4A /* StockTabTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503DE636210699BF00C55A4A /* StockTabTableViewCell.swift */; };
+		503DE6392106F12D00C55A4A /* StockHistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503DE6382106F12D00C55A4A /* StockHistoryModel.swift */; };
+		503DE63B21072A3B00C55A4A /* ScrollableGraphView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 503DE63A21072A3A00C55A4A /* ScrollableGraphView.framework */; };
+		503DE63E2107DC7A00C55A4A /* DetailStockHistroyGraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503DE63D2107DC7A00C55A4A /* DetailStockHistroyGraphViewController.swift */; };
+		503DE64021085B4900C55A4A /* UIColor+colorFromHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503DE63F21085B4900C55A4A /* UIColor+colorFromHex.swift */; };
+		50B07DFE20FC66B700E4AD67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B07DFD20FC66B700E4AD67 /* AppDelegate.swift */; };
+		50B07E0020FC66B700E4AD67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B07DFF20FC66B700E4AD67 /* ViewController.swift */; };
+		50B07E0320FC66B700E4AD67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50B07E0120FC66B700E4AD67 /* Main.storyboard */; };
+		50B07E0520FC66D100E4AD67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50B07E0420FC66D100E4AD67 /* Assets.xcassets */; };
+		50B07E0820FC66D100E4AD67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50B07E0620FC66D100E4AD67 /* LaunchScreen.storyboard */; };
+		50B07E1020FE6BD400E4AD67 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B07E0F20FE6BCF00E4AD67 /* SwiftyJSON.swift */; };
+		50B07E1220FF011600E4AD67 /* StockDataDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B07E1120FF011600E4AD67 /* StockDataDetailViewController.swift */; };
+		50EA31C221046C5E00156CF1 /* StockModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EA31C121046C5E00156CF1 /* StockModel.swift */; };
+		BF431F56D84372159DB131FF /* Pods_StockFusion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C98543ABB330C36F8E7F4C6 /* Pods_StockFusion.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13AFF87056B410B3A2960E47 /* Pods-StockFusion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StockFusion.release.xcconfig"; path = "Pods/Target Support Files/Pods-StockFusion/Pods-StockFusion.release.xcconfig"; sourceTree = "<group>"; };
+		5007F70E210A7FAC00FDB7A7 /* MaterialDesignForStyling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialDesignForStyling.swift; sourceTree = "<group>"; };
+		5007F710210A814500FDB7A7 /* Motion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Motion.framework; path = Carthage/Build/iOS/Motion.framework; sourceTree = "<group>"; };
+		5007F713210A86A000FDB7A7 /* Material.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Material.framework; path = Carthage/Build/iOS/Material.framework; sourceTree = "<group>"; };
+		5007F715210B056D00FDB7A7 /* LoadingSpinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingSpinner.swift; sourceTree = "<group>"; };
+		5007F717210BA3F400FDB7A7 /* SwiftyButton.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyButton.framework; path = Carthage/Build/iOS/SwiftyButton.framework; sourceTree = "<group>"; };
+		50187D44210EC15D004B06C2 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		50187D46210FA34C004B06C2 /* StockAllViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockAllViewController.swift; sourceTree = "<group>"; };
+		50187D48210FA5B0004B06C2 /* HistoryTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTabViewController.swift; sourceTree = "<group>"; };
+		50187D4A210FA5C1004B06C2 /* AugmentedRealityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AugmentedRealityViewController.swift; sourceTree = "<group>"; };
+		50187D4C210FA5D4004B06C2 /* SearchTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTabViewController.swift; sourceTree = "<group>"; };
+		50187D4E210FA5E6004B06C2 /* TrackStockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackStockViewController.swift; sourceTree = "<group>"; };
+		50187D8921111E94004B06C2 /* StockRemoteDataShared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockRemoteDataShared.swift; sourceTree = "<group>"; };
+		50187D8B2113C9AB004B06C2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		50187D8D2113C9C9004B06C2 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		50187D912113CA22004B06C2 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		50187D9321142210004B06C2 /* TrackStockItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackStockItem.swift; sourceTree = "<group>"; };
+		50187D95211424C1004B06C2 /* TrackingStocksTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingStocksTableViewController.swift; sourceTree = "<group>"; };
+		50187D97211429C7004B06C2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		50187D99211447F8004B06C2 /* StockFusion.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StockFusion.entitlements; sourceTree = "<group>"; };
+		503DE636210699BF00C55A4A /* StockTabTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockTabTableViewCell.swift; sourceTree = "<group>"; };
+		503DE6382106F12D00C55A4A /* StockHistoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockHistoryModel.swift; sourceTree = "<group>"; };
+		503DE63A21072A3A00C55A4A /* ScrollableGraphView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScrollableGraphView.framework; path = Carthage/Build/iOS/ScrollableGraphView.framework; sourceTree = "<group>"; };
+		503DE63D2107DC7A00C55A4A /* DetailStockHistroyGraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailStockHistroyGraphViewController.swift; sourceTree = "<group>"; };
+		503DE63F21085B4900C55A4A /* UIColor+colorFromHex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+colorFromHex.swift"; sourceTree = "<group>"; };
+		50B07DFA20FC66B700E4AD67 /* StockFusion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StockFusion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50B07DFD20FC66B700E4AD67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		50B07DFF20FC66B700E4AD67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		50B07E0220FC66B700E4AD67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50B07E0420FC66D100E4AD67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50B07E0720FC66D100E4AD67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50B07E0920FC66D100E4AD67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50B07E0F20FE6BCF00E4AD67 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		50B07E1120FF011600E4AD67 /* StockDataDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockDataDetailViewController.swift; sourceTree = "<group>"; };
+		50EA31C121046C5E00156CF1 /* StockModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockModel.swift; sourceTree = "<group>"; };
+		7C98543ABB330C36F8E7F4C6 /* Pods_StockFusion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StockFusion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89E8F247B4B613FEC6F5D007 /* Pods-StockFusion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StockFusion.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StockFusion/Pods-StockFusion.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50B07DF720FC66B700E4AD67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5007F718210BA3F400FDB7A7 /* SwiftyButton.framework in Frameworks */,
+				5007F711210A814600FDB7A7 /* Motion.framework in Frameworks */,
+				503DE63B21072A3B00C55A4A /* ScrollableGraphView.framework in Frameworks */,
+				5007F714210A86A100FDB7A7 /* Material.framework in Frameworks */,
+				BF431F56D84372159DB131FF /* Pods_StockFusion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50B07DF120FC66B600E4AD67 = {
+			isa = PBXGroup;
+			children = (
+				5007F717210BA3F400FDB7A7 /* SwiftyButton.framework */,
+				5007F713210A86A000FDB7A7 /* Material.framework */,
+				5007F710210A814500FDB7A7 /* Motion.framework */,
+				503DE63A21072A3A00C55A4A /* ScrollableGraphView.framework */,
+				50B07DFC20FC66B700E4AD67 /* StockFusion */,
+				50B07DFB20FC66B700E4AD67 /* Products */,
+				DBEB2C0EE14EFF2F77FC91BA /* Pods */,
+				FA3D1C026AF6415A9235E9E3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		50B07DFB20FC66B700E4AD67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50B07DFA20FC66B700E4AD67 /* StockFusion.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50B07DFC20FC66B700E4AD67 /* StockFusion */ = {
+			isa = PBXGroup;
+			children = (
+				50187D99211447F8004B06C2 /* StockFusion.entitlements */,
+				50EA31C021046B9A00156CF1 /* Model */,
+				50B07DFD20FC66B700E4AD67 /* AppDelegate.swift */,
+				50EA31C121046C5E00156CF1 /* StockModel.swift */,
+				50B07DFF20FC66B700E4AD67 /* ViewController.swift */,
+				503DE636210699BF00C55A4A /* StockTabTableViewCell.swift */,
+				50B07E0F20FE6BCF00E4AD67 /* SwiftyJSON.swift */,
+				503DE6382106F12D00C55A4A /* StockHistoryModel.swift */,
+				503DE63D2107DC7A00C55A4A /* DetailStockHistroyGraphViewController.swift */,
+				50B07E1120FF011600E4AD67 /* StockDataDetailViewController.swift */,
+				503DE63F21085B4900C55A4A /* UIColor+colorFromHex.swift */,
+				5007F70E210A7FAC00FDB7A7 /* MaterialDesignForStyling.swift */,
+				5007F715210B056D00FDB7A7 /* LoadingSpinner.swift */,
+				50187D44210EC15D004B06C2 /* HistoryViewController.swift */,
+				50187D46210FA34C004B06C2 /* StockAllViewController.swift */,
+				50187D48210FA5B0004B06C2 /* HistoryTabViewController.swift */,
+				50187D4A210FA5C1004B06C2 /* AugmentedRealityViewController.swift */,
+				50187D4C210FA5D4004B06C2 /* SearchTabViewController.swift */,
+				50187D4E210FA5E6004B06C2 /* TrackStockViewController.swift */,
+				50187D8921111E94004B06C2 /* StockRemoteDataShared.swift */,
+				50187D8B2113C9AB004B06C2 /* LoginViewController.swift */,
+				50187D8D2113C9C9004B06C2 /* RegisterViewController.swift */,
+				50187D95211424C1004B06C2 /* TrackingStocksTableViewController.swift */,
+				50B07E0120FC66B700E4AD67 /* Main.storyboard */,
+				50B07E0420FC66D100E4AD67 /* Assets.xcassets */,
+				50B07E0620FC66D100E4AD67 /* LaunchScreen.storyboard */,
+				50187D97211429C7004B06C2 /* GoogleService-Info.plist */,
+				50B07E0920FC66D100E4AD67 /* Info.plist */,
+			);
+			path = StockFusion;
+			sourceTree = "<group>";
+		};
+		50EA31C021046B9A00156CF1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				50187D912113CA22004B06C2 /* UserModel.swift */,
+				50187D9321142210004B06C2 /* TrackStockItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DBEB2C0EE14EFF2F77FC91BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89E8F247B4B613FEC6F5D007 /* Pods-StockFusion.debug.xcconfig */,
+				13AFF87056B410B3A2960E47 /* Pods-StockFusion.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FA3D1C026AF6415A9235E9E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C98543ABB330C36F8E7F4C6 /* Pods_StockFusion.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50B07DF920FC66B700E4AD67 /* StockFusion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50B07E0C20FC66D100E4AD67 /* Build configuration list for PBXNativeTarget "StockFusion" */;
+			buildPhases = (
+				BA1B30DD17768479D77AB70E /* [CP] Check Pods Manifest.lock */,
+				50B07DF620FC66B700E4AD67 /* Sources */,
+				50B07DF720FC66B700E4AD67 /* Frameworks */,
+				50B07DF820FC66B700E4AD67 /* Resources */,
+				503DE63C21072A9500C55A4A /* ScrollableGraphAndMaterial */,
+				306522EECF8366A2413C6126 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StockFusion;
+			productName = StockFusion;
+			productReference = 50B07DFA20FC66B700E4AD67 /* StockFusion.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50B07DF220FC66B600E4AD67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Landry Achia Ndong";
+				TargetAttributes = {
+					50B07DF920FC66B700E4AD67 = {
+						CreatedOnToolsVersion = 9.4;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 50B07DF520FC66B600E4AD67 /* Build configuration list for PBXProject "StockFusion" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50B07DF120FC66B600E4AD67;
+			productRefGroup = 50B07DFB20FC66B700E4AD67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50B07DF920FC66B700E4AD67 /* StockFusion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50B07DF820FC66B700E4AD67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50B07E0820FC66D100E4AD67 /* LaunchScreen.storyboard in Resources */,
+				50187D98211429C8004B06C2 /* GoogleService-Info.plist in Resources */,
+				50B07E0520FC66D100E4AD67 /* Assets.xcassets in Resources */,
+				50B07E0320FC66B700E4AD67 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		306522EECF8366A2413C6126 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-StockFusion/Pods-StockFusion-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ARCL/ARCL.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SearchTextField/SearchTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ARCL.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SearchTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StockFusion/Pods-StockFusion-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		503DE63C21072A9500C55A4A /* ScrollableGraphAndMaterial */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/ScrollableGraphView.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Material.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Motion.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftyButton.framework",
+			);
+			name = ScrollableGraphAndMaterial;
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/ScrollableGraphView.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Motion.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Material.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SwiftyButton.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		BA1B30DD17768479D77AB70E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StockFusion-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50B07DF620FC66B700E4AD67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50187D47210FA34D004B06C2 /* StockAllViewController.swift in Sources */,
+				50187D922113CA22004B06C2 /* UserModel.swift in Sources */,
+				503DE63E2107DC7A00C55A4A /* DetailStockHistroyGraphViewController.swift in Sources */,
+				5007F70F210A7FAC00FDB7A7 /* MaterialDesignForStyling.swift in Sources */,
+				50B07E1020FE6BD400E4AD67 /* SwiftyJSON.swift in Sources */,
+				50187D8C2113C9AD004B06C2 /* LoginViewController.swift in Sources */,
+				50187D4D210FA5D4004B06C2 /* SearchTabViewController.swift in Sources */,
+				50187D4B210FA5C2004B06C2 /* AugmentedRealityViewController.swift in Sources */,
+				50187D45210EC15D004B06C2 /* HistoryViewController.swift in Sources */,
+				503DE6392106F12D00C55A4A /* StockHistoryModel.swift in Sources */,
+				50EA31C221046C5E00156CF1 /* StockModel.swift in Sources */,
+				50B07E0020FC66B700E4AD67 /* ViewController.swift in Sources */,
+				50187D8E2113C9C9004B06C2 /* RegisterViewController.swift in Sources */,
+				5007F716210B056D00FDB7A7 /* LoadingSpinner.swift in Sources */,
+				50187D49210FA5B0004B06C2 /* HistoryTabViewController.swift in Sources */,
+				50B07E1220FF011600E4AD67 /* StockDataDetailViewController.swift in Sources */,
+				50187D4F210FA5E6004B06C2 /* TrackStockViewController.swift in Sources */,
+				503DE637210699BF00C55A4A /* StockTabTableViewCell.swift in Sources */,
+				50187D8A21111E94004B06C2 /* StockRemoteDataShared.swift in Sources */,
+				50187D96211424C1004B06C2 /* TrackingStocksTableViewController.swift in Sources */,
+				50B07DFE20FC66B700E4AD67 /* AppDelegate.swift in Sources */,
+				503DE64021085B4900C55A4A /* UIColor+colorFromHex.swift in Sources */,
+				50187D9421142210004B06C2 /* TrackStockItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		50B07E0120FC66B700E4AD67 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50B07E0220FC66B700E4AD67 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50B07E0620FC66D100E4AD67 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50B07E0720FC66D100E4AD67 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50B07E0A20FC66D100E4AD67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50B07E0B20FC66D100E4AD67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50B07E0D20FC66D100E4AD67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89E8F247B4B613FEC6F5D007 /* Pods-StockFusion.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = StockFusion/StockFusion.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78U5SNGA5C;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = StockFusion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = info.lansachia.StockFusion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50B07E0E20FC66D100E4AD67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13AFF87056B410B3A2960E47 /* Pods-StockFusion.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = StockFusion/StockFusion.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78U5SNGA5C;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = StockFusion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = info.lansachia.StockFusion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50B07DF520FC66B600E4AD67 /* Build configuration list for PBXProject "StockFusion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50B07E0A20FC66D100E4AD67 /* Debug */,
+				50B07E0B20FC66D100E4AD67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50B07E0C20FC66D100E4AD67 /* Build configuration list for PBXNativeTarget "StockFusion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50B07E0D20FC66D100E4AD67 /* Debug */,
+				50B07E0E20FC66D100E4AD67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50B07DF220FC66B600E4AD67 /* Project object */;
+}

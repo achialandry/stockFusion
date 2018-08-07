@@ -1,0 +1,9 @@
+{
+  "commitish" : "1.4.3",
+  "iOS" : [
+    {
+      "name" : "Motion",
+      "hash" : "7424daf283944793cc5d1da5e4298ea4828151aa1a0ec93f1c09d8357c191382"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+github "CosmicMind/Material" "2.16.4"
+github "CosmicMind/Motion" "1.4.3"
+github "TakeScoop/SwiftyButton" "0.8.2"
+github "philackm/ScrollableGraphView" "4.0.5"

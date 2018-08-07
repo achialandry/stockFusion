@@ -1,0 +1,9 @@
+{
+  "commitish" : "4.0.5",
+  "iOS" : [
+    {
+      "name" : "ScrollableGraphView",
+      "hash" : "b5a74a21343658168adb6195f8662b8811db84f9a0afa4335ea2b80b81c0b8ff"
+    }
+  ]
+}
